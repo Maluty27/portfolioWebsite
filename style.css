@@ -96,3 +96,15 @@ body {
   bottom: 0;
   width: 100%;
 }
+
+
+@media (max-width: 600px) {
+    nav ul {
+        display: none;
+        flex-direction: column;
+    }
+    button {
+        display: block;
+    }
+}
+
